@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Nasza druga strona</title>
 </head>
 <body>
-    <H5>STRONA 2</H5>
+    <a href="strona1.html">Strona1</a>
+    <a href="strona2.html">Strona2</a>
+    <a href="inne/strona3.html">Strona3</a>
+    <H5>Tabele</H5>
+<!--table - znacznik początku i końca tabeli
+    tr - wiersz
+    th - nagłówek kolumny
+    td - element w kolumnie
+    colspan - łączenie kolumn
+    rowspan - łączenie wierszy
+    -->
+    <table>
+        <tr> <td>Pole1</td> <td>Pole2</td> <td>Pole3</td> </tr>
+        <tr> <td>Pole4</td> <td>Pole5</td> <td>Pole6</td> </tr>
+        <tr> <td>Pole7</td> <td>Pole8</td> <td>Pole9</td> </tr>
+    </table>
+
+<br><br>
+    <table>
+        <tr> 
+            <th>Poniedziałek</th> 
+            <th>Wtorek</th> 
+            <th>Środa</th>
+            <th>Czwartek</th> 
+            <th>Piątek</th>
+        </tr>
+        <tr> 
+            <td>J.Polski</td>
+            <td>J.Angielsk</td>
+            <td>Informatyka</td>
+            <td>Chemia</td>
+        </tr>
+        <tr> 
+            <td>J.Polski</td>
+            <td rowspan="3"> Wf </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr> 
+            <td>Matematyka</td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr> 
+            <td>Wf</td>
+            
+            <td colspan="2">Informatyka</td>
+        </tr>
+        <tr> 
+            <td>Fizyka</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
 </body>
 </html>
