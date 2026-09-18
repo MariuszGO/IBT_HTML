@@ -27,10 +27,39 @@
     <label for="wiek">Wiek: </label>
     <input type="number" id="wiek" min="1" max="110"><br> 
    <!-- <input type="submit" value="Wyślij"> -->
+    <label> Hasło: 
+        <input type="password" > 
+    </label><br>
+    <label for="mail">E-mail: </label>
+    <input type="email" id="mail"><br>
     <input type="reset" value="Wyczyść formularz"> 
     <button>Wyślij</button>
   <!--  <input type="button" value="Inny przycisk"> -->
 </form>
+
+<!--Nasz 2 formularz
+W przypadku inputa radio atrybut name musi mieć taką samą nazwę, inczaczej będzie można
+kiliknąć więcej niż 1 opcję radio co nie jest poprawne. Tekst po słowie value będzie wysyłąny
+dalej.
+-->
+
+<form>
+    <label>Twój ulubiony kolor:<br>
+    
+    <input type="radio" id="op1" name="kolory" value="czarny">
+    <label for="op1">Czarny: </label><br>
+  
+    <input type="radio" id="op2" name="kolory" value="zielony">
+    <label for="op2">Zielony: </label><br>
+
+    <input type="radio" id="op3" name="kolory" value="czerwony">
+    <label for="op3">Czerwony: </label><br>
+    </label>
+
+</form>
+
+
+
     
 </body>
 </html>
