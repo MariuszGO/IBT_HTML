@@ -44,7 +44,7 @@ dalej.
 -->
 
 <form>
-    <label>Twój ulubiony kolor:<br>
+    <p>Twój ulubiony kolor: </p><br>
     
     <input type="radio" id="op1" name="kolory" value="czarny">
     <label for="op1">Czarny: </label><br>
@@ -52,10 +52,27 @@ dalej.
     <input type="radio" id="op2" name="kolory" value="zielony">
     <label for="op2">Zielony: </label><br>
 
-    <input type="radio" id="op3" name="kolory" value="czerwony">
+    <input type="radio" id="op3" name="kolory" value="czerwony" checked>
     <label for="op3">Czerwony: </label><br>
-    </label>
+    
+    <p> Wybierz sowoje ulubione marki pojazdów: </p>
+    <label><input type="checkbox" value="Audi" name="audi">Audi</label><br>
+    <label><input type="checkbox" value="BMW" name="bmw">BMW</label><br>
+    <label><input type="checkbox" value="VW" name="vw">VW</label><br>
+    <label><input type="checkbox" value="Opel" name="opel" checked>Opel</label><br>
+    <label><input type="checkbox" value="Toyota" name="toyota" checked>Toyota</label><br>
+    <label><input type="checkbox" value="Peugot" name="peugot">Peugot</label><br>
+    <label><input type="checkbox" value="Kia" name="kia" disabled>Kia</label><br>
+    <label><input type="checkbox" value="Porsche" name="porsche" hidden>Porsche</label>
 
+    <p>Wybierz płeć:</p>
+    <select id="plec" name="plec">
+        <option value="opcja1">Męska</option>
+        <option value="opcja2" selected>Żeńska</option>
+    </select>
+
+
+    <input type="submit" value="Wyślij">
 </form>
 
 
