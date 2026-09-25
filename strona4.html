@@ -20,7 +20,9 @@
      <input type="text">
          -->
 <form>
-    <label for="imie">Imie: </label>
+    <fieldset>    
+     <legend>Podaj dane osobowe</legend>   
+        <label for="imie">Imie: </label>
     <input type="text" id="imie" maxlength="10" size="15" placeholder="Proszę podać imie"><br> 
     <label for="na">Nazwisko: </label>
     <input type="text" id="na"><br>
@@ -35,6 +37,8 @@
     <input type="reset" value="Wyczyść formularz"> 
     <button>Wyślij</button>
   <!--  <input type="button" value="Inny przycisk"> -->
+    </fieldset>
+
 </form>
 
 <!--Nasz 2 formularz
@@ -69,7 +73,26 @@ dalej.
     <select id="plec" name="plec">
         <option value="opcja1">Męska</option>
         <option value="opcja2" selected>Żeńska</option>
-    </select>
+    </select><br>
+
+    <textarea cols="50" rows="10">
+
+    </textarea>
+
+    <form>
+  <input list="miasta" name="miasta">
+  <datalist id="miasta">
+    <option value="Gorlice">
+    <option value="Jasło">
+    <option value="Grybów">
+    <option value="Nowy Sącz">
+    <option value="Tarnów">
+  </datalist>
+  <input type="submit" value="Wybierz">
+</form>
+
+
+
 
 
     <input type="submit" value="Wyślij">
