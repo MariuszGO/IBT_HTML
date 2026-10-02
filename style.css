@@ -8,3 +8,8 @@ table, td, tr, th{
 input {
     margin-bottom: 10px;
 }
+
+h6{
+    color: white;
+    background-color: black;
+}
