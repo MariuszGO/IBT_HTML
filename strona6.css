@@ -3,6 +3,11 @@ p{
     color: rgb(121, 73, 11);
 }
 
+body{
+    background-image: url("sam1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 section > p{  /*selektor dziecka*/
     color: red;
@@ -41,10 +46,11 @@ section  h1{  /*selektor rodzica*/
     text-shadow: 10px 4px 5px dimgray;
 }
 
-p:hover{
+p{
     color: black;
-    letter-spacing: 10px;
+    letter-spacing: 18px;
 }
+
 
 a:visited{
     background-color: antiquewhite;
@@ -58,4 +64,11 @@ p::first-letter{
 h1:hover{
     box-shadow: 10px 10px 5px black;
     background-color: antiquewhite;
+}
+
+.prawa{
+    text-align: right;
+    line-height: 20px;
+    text-decoration: underline overline;
+    text-transform: lowercase;
 }
