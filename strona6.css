@@ -1,0 +1,17 @@
+p{
+    color: rgb(121, 73, 11);
+}
+
+
+section > p{  /*selektor dziecka*/
+    color: red;
+}
+
+
+
+section  h1{  /*selektor rodzica*/
+    color: red;
+}
+
+
+
