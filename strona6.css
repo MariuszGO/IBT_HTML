@@ -84,7 +84,9 @@ h1:hover{
     border: 5px solid black;
     border-radius: 16px;
     box-shadow: 13px 13px 5px gray;
-    outline: 3px solid green;
+    outline: 10px solid green;
+    outline-style: dotted;
+    overflow: scroll;
 }
 
 #blok:active{

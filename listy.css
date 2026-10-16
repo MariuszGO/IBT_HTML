@@ -1,0 +1,14 @@
+ul li{
+    list-style-image: url('obraz.gif');
+    color: rgb(89, 0, 255);
+    text-decoration: underline dotted;
+    }
+
+ul li::marker{
+    color: brown;
+}
+
+
+ol > li{
+    list-style:upper-latin;
+}
