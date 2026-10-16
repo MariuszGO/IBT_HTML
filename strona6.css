@@ -2,13 +2,13 @@ p{
     font-family: Arial, Courier;
     color: rgb(121, 73, 11);
 }
-
+/*
 body{
     background-image: url("sam1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+*/
 section > p{  /*selektor dziecka*/
     color: red;
 }
@@ -64,6 +64,8 @@ p::first-letter{
 h1:hover{
     box-shadow: 10px 10px 5px black;
     background-color: antiquewhite;
+    border-style: dotted solid;
+    border-color: #14F422;
 }
 
 .prawa{
@@ -72,3 +74,32 @@ h1:hover{
     text-decoration: underline overline;
     text-transform: lowercase;
 }
+
+#blok{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    margin: 15px;
+    background-color: burlywood;
+    border: 5px solid black;
+    border-radius: 16px;
+    box-shadow: 13px 13px 5px gray;
+    outline: 3px solid green;
+}
+
+#blok:active{
+    box-shadow: 7px 7px 5px gray;
+}
+#blok:hover{
+     background-color: rgb(230, 212, 188);
+}
+#blok p{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: normal;
+    text-align: center;
+    padding-top: 20%;
+
+}
+
