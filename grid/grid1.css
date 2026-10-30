@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "bok s0 s0"
+        "bok s0 s0"
+        "s2 s2 s2"
+        "footer footer footer"
+        ;
+    grid-template-rows: 100px 120px 150px 150px 50px 100px;
+    grid-template-columns: 3fr 4fr 3fr;
+
+}
+
+
+nav{
+    grid-area: nav;
+    background-color: cornflowerblue;
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+aside{
+    grid-area: bok;
+    background-color: bisque;
+}
+
+#zero{
+    grid-area: s0;
+    background-color: blueviolet;
+}
+
+#jeden{
+    width: 50%;
+    height: 150px;
+    background-color: rgb(43, 226, 52);
+    float: right;
+}
+#dwa{
+    grid-area: s2;
+    background-color: rgb(226, 43, 186);
+}
+
+footer{
+    grid-area: footer;
+    background-color: coral;
+}

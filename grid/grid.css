@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "bok  srodek"
+        ;
+    grid-template-rows: 100px 800px;
+    grid-template-columns: 100px 4fr;
+
+}
+
+
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+aside{
+    grid-area: bok;
+    background-color: bisque;
+}
+
+main{
+    grid-area: srodek;
+    background-color: blueviolet;
+}
